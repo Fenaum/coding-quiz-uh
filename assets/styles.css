@@ -27,20 +27,21 @@ main {
 }
 
 button {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     border-radius: 50px;
     cursor: pointer;
     border: 0;
     box-shadow: 3px;
     background-color: red;
     color: white;
+    margin: 30px
 }
 
 button:hover {
     transition-duration: .5s;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     background-color: lightgreen;
 }
 
@@ -49,6 +50,7 @@ button:hover {
     font-weight: 300;
 }
 
-.startButton {
+#startButton {
     margin-top: 30px;
 }
+
